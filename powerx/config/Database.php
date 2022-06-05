@@ -6,7 +6,6 @@ class Database {
 	private $_username = "root";
 	private $_password = "andreas123";
 	private $_database = "powerx";
-	// private $_database = "schoolmanagement";
 	/*
 	Get an instance of the Database
 	@return Instance
