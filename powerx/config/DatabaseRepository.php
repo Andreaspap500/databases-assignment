@@ -127,7 +127,7 @@ class DbFunction
 			*
 		FROM
 			projects_per_researcher_all_relations
-		JOIN project_scientific_fields ON projects_per_researcher_all_relations.project_id = project_scientific_fields.scientific_field_id
+		JOIN project_scientific_fields ON projects_per_researcher_all_relations.project_id = project_scientific_fields.project_id
 		WHERE
 			project_scientific_fields.scientific_field_id = " . $scientific_field_id . " 
 			AND project_start_date <= NOW() 
