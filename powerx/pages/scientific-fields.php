@@ -125,11 +125,11 @@ if ($scientific_field_id != null) {
                                                 <tr>
                                                 <th>TYPE</th>
                                                 <th>researcher_id</th>
-                                                <th>researcher_first_name</th>
-                                                <th>researcher_last_name</th>
-                                                <th>researcher_date_of_birth</th>
-                                                <th>researcher_sex</th>
-                                                <th>researcher_date_of_employment</th>
+                                                <th>first_name</th>
+                                                <th>last_name</th>
+                                                <th>date_of_birth</th>
+                                                <th>sex</th>
+                                                <th>date_of_employment</th>
                                                 <th>project_id</th>
                                                 <th>project_title</th>
                                                 <th>project_start_date</th>
