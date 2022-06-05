@@ -63,13 +63,13 @@ $query = $obj->show_research_centers_scientific_fields();
                                     <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                         <thead>
                                             <tr>
+                                                <th>scientific_field_id</th>
+                                                <th>scientific_field_name</th>
                                                 <th>organization_id</th>
                                                 <th>organization_abbreviation</th>
                                                 <th>organization_name</th>
                                                 <th>ministry_of_education_budget</th>
                                                 <th>private_funding_budget</th>
-                                                <th>scientific_field_id</th>
-                                                <th>scientific_field_name</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -77,15 +77,13 @@ $query = $obj->show_research_centers_scientific_fields();
                                             <?php
                                             while ($result = $query->fetch_object()) { ?>
                                                 <tr class="odd gradeX">
+                                                    <td><?php echo htmlentities($result->scientific_field_id); ?></td>
+                                                    <td><?php echo htmlentities($result->scientific_field_name); ?></td>
                                                     <td><?php echo htmlentities($result->organization_id); ?></td>
                                                     <td><?php echo htmlentities($result->organization_abbreviation); ?></td>
                                                     <td><?php echo htmlentities($result->organization_name); ?></td>
                                                     <td><?php echo htmlentities($result->ministry_of_education_budget); ?></td>
                                                     <td><?php echo htmlentities($result->private_funding_budget); ?></td>
-                                                    <td><?php echo htmlentities($result->scientific_field_id); ?></td>
-                                                    <td><?php echo htmlentities($result->organization_abbreviation); ?></td>
-                                                    <td><?php echo htmlentities($result->scientific_field_id); ?></td>
-                                                    <td><?php echo htmlentities($result->scientific_field_name); ?></td>
                                                     
                                                
                                                 </tr>

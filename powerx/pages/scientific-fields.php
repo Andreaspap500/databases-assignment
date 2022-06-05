@@ -132,6 +132,8 @@ if ($scientific_field_id != null) {
                                                 <th>researcher_date_of_employment</th>
                                                 <th>project_id</th>
                                                 <th>project_title</th>
+                                                <th>project_start_date</th>
+                                                <th>project_end_date</th>
                                                 <th>project_description</th>
                                                 </tr>
                                             </thead>
@@ -150,6 +152,8 @@ if ($scientific_field_id != null) {
                                                             <td><?php echo htmlentities($result->researcher_date_of_employment); ?></td>
                                                             <td><?php echo htmlentities($result->project_id); ?></td>
                                                             <td><?php echo htmlentities($result->project_title); ?></td>
+                                                            <td><?php echo htmlentities($result->project_start_date); ?></td>
+                                                            <td><?php echo htmlentities($result->project_end_date); ?></td>
                                                             <td><?php echo htmlentities($result->project_description); ?></td>
 
                                                         </tr>
