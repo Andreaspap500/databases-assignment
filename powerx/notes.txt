@@ -1,0 +1,26 @@
+FIX:
+
+projects-per-researcher page (Fix columns) check
+
+research-centers-scientific-fields page (Fix columns) check
+
+scientific-fields page (Fix columns in projectReasearchersQuery table)check
+TEST show_active_project_researchers_per_scientific_field qery with real data
+
+
+organizations-with-consecutive-years-same-projects page  check
+    - Fix columns in projectReasearchersQuery table
+    -Inside query, fix > 0 to > 10
+
+show_top_3_scientific_field_tuples check
+- Add in menu
+- Create page (simple table, like research-centers-scientific-fields)
+
+
+show_top_5_by_funding_executives check
+- Add in menu
+- Create page (simple table, like research-centers-scientific-fields)
+
+show_researchers_with_at_least_5_projects_with_no_deliverables check
+- Add in menu
+- Create page (simple table, like research-centers-scientific-fields)
